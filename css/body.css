@@ -1,0 +1,10 @@
+.js-body {
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: x;
+}
+.js-body--dark {
+    background-color: rgb(190, 190, 190);
+}

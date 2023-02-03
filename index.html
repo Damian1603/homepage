@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damian Kuczyński</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/boxmodel.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/heading.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="js-body js-body--dark">
+    <header class="heading">
+        <h1 class="heading__header"> Cześć, jestem Damian</h1>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#o-mnie">O MNIE</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#moje-zainteresowania">ZAINTERESOWANIA</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#galeria">GALERIA</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#tabela">TABELA</a>
+            </li>
+        </ul>
+    </nav>
+
+    <p>
+        <button class="js-button">Jasny motyw</button>
+    </p>
+
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header"> O mnie</h2>
+            <p class="section__paragraph"> Nazywam się Damian. Mam 22 lata i przez ostatnie 10 lat grałem w piłkę nożną.
+                W tym czasie miałem okazję występować w drużynach juniorskich takich klubów jak Polonia Warszawa, czy
+                Ruch
+                Chorzów.
+                Uwielbiam sport i wszelkiego rodzaju aktywność fizyczną.
+                Obecnie zajmuję się sprzedażą artykułów i kosmetyków fryzjerskich online w hurtowni kosmetycznej.
+            </p>
+            <img class="image" src="images/IMG_7039.jpg" alt="Damian">
+        </section>
+
+        <section class="section" id="moje-zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p class="section__paragraph">Moją główną pasją jest piłka nożna. Uwielbiam śledzić poczynania różnych
+                drużyn na całym
+                świecie, dokonywać
+                porównań, śledzić statystyki poszczególnych graczy.
+                Dodatkowo bardzo lubię podróżować w różne regiony Polski, oraz jak tylko jest to możliwe w dalsze
+                zakątki
+                globu.
+                Jestem również wielkim miłośnikiem zwierząt, a w szczególności psów rasy owczarek. Na codzień mieszkam z
+                dwoma takimi psiakami Luną i Lilą
+            </p>
+            <img class="image" src="images/IMG_4342.jpg" alt="psy">
+            <img class="image" src="images/IMG_1390.JPG" alt="pilka">
+            <img class="image" src="images/IMG_0667.jpg" alt="wakacje">
+            <img class="image" src="images/IMG_0835.jpg" alt="ja">
+        </section>
+
+        <section class="section" id="galeria">
+            <h2 class="section__header">Galeria</h2>
+            <img class="image" src="images/IMG_4342.jpg" alt="psy">
+            <img class="image" src="images/IMG_7039.jpg" alt="Damian">
+            <img class="image" src="images/IMG_1390.JPG" alt="pilka">
+            <img class="image" src="images/IMG_0667.jpg" alt="wakacje">
+            <img class="image" src="images/IMG_0835.jpg" alt="ja">
+        </section>
+
+        <section class="section" id="tabela">
+            <h2 class="section__header">
+                Tabela
+            </h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione drużyny piłkarskie </caption>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="col">Drużyna</th>
+                        <th class="tableCell tableHeader" scope="col">Kraj</th>
+                        <th class="tableCell tableHeader" scope="col">Najlepszy zawodnik</th>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">Manchester United</th>
+                        <td class="tableCell">Wielka Brytania</td>
+                        <td class="tableCell">Bruno Fernandes</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">Barcelona</th>
+                        <td class="tableCell">Hiszpania</td>
+                        <td class="tableCell">Robert Lewandowski</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">Bayern Munchen</th>
+                        <td class="tableCell">Niemcy</td>
+                        <td class="tableCell">Leroy Sane</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        Damian Kuczyński<br>
+        tel. 732-584-003<br>
+        e-mail: kuczynski.damian00@wp.pl; bielanembyc@gmail.com
+    </footer>
+</body>
+
+</html>
