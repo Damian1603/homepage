@@ -3,7 +3,7 @@
         const body = document.querySelector(".js-body");
         body.classList.toggle("js-body--dark");
         const nextColorName = document.querySelector(".nextColorName");
-        nextColorName.innerText = body.classList.contains("js-body--dark") ? "jasny" : "ciemny";
+        nextColorName.innerText = body.classList.contains("js-body--dark") ? "Jasny" : "Ciemny";
     };
     
     const init = () => {
