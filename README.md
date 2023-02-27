@@ -5,3 +5,8 @@
 ## Demo
 
  https://damian1603.github.io/homepage/
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
