@@ -14,3 +14,4 @@ My first project is a basic website with information about me. I used some HTML 
 - HTML
 - CSS
 - JavaScript
+- BEM
