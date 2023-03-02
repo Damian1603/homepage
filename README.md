@@ -4,7 +4,7 @@
 
 ## Description
 
-My first project is a basic website with information about me. I used some HTML tags and styled it with CSS. I also added a button that changes the background color, all to practice the possibilities of JS.
+My first project is a basic website with information about me. I used some HTML tags and styled it with CSS. I also added a button that changes the background color, to practice the possibilities of JS.
 
 ## Demo
 
