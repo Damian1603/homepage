@@ -12,7 +12,7 @@ html {
     margin: auto;
     max-width: 1000px;
     background-color: rgb(219, 219, 219);
-    justify-content: center;
+    padding: 20px;
     text-align: center;
 }
 
@@ -87,8 +87,7 @@ html {
 
 .table {
     border-collapse: collapse;
-    margin: 20px;
-    text-align: center;
+    width: 100%;
 }
 
 .tableCell {
@@ -114,8 +113,8 @@ html {
 
 .container {
     overflow-x: auto;
-    text-align: center;
-
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 .footer {
