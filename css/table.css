@@ -16,7 +16,7 @@
 
 .table__caption {
     font-size: 20px;
-    margin: 20px;
+    margin: 10px auto;
     border-bottom: 2px solid rgb(181, 76, 179);
 }
 
