@@ -1,4 +1,4 @@
-# Damian Kuczyński - my first homepage
+# Damian Kuczyński - my first website
 
 [![My-first-homepage.png](https://i.postimg.cc/7YYBjFCB/My-first-homepage.png)](https://postimg.cc/Sj37Mtf8)
 
